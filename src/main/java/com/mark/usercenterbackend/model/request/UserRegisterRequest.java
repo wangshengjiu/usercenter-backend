@@ -21,4 +21,7 @@ public class UserRegisterRequest implements Serializable {
     @NotNull(message = "确认密码不能为空")
     @Length(min = 8)
     private String confirmPassword;
+
+    @Length(min = 8,max = 8)
+    private String invitedCode;
 }

@@ -9,7 +9,7 @@ public interface UserConstant {
 
     String userLoginState = "userLoginState";
 
-    Integer adminRole = 1;
+    Integer adminRole = 0;
 
     Integer commonRole = 1;
 }
